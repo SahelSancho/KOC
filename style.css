@@ -43,7 +43,7 @@ button {
     display: center;
     gap: 16px;
     padding: 16px;
-    flex: center;
+    flex: 1;
 }
 
 .leitura {
@@ -51,21 +51,15 @@ button {
     background-color: #ccc;
     text-align: center;
     margin: 0 auto;
-    max-width: 800px; /* Define a largura máxima desejada */
+    max-width: 1000px; /* Define a largura máxima desejada */
+    height: 100%;
 }
 
 .leitura p {
     text-align: left; /* Alinhar o texto à esquerda */
     margin: 0 auto; /* Centralizar o texto dentro do contêiner leitura */
 }
+
 h2{
-    text-align: left;
-}
-
-.hidden {
-    display: none;
-}
-
-#menu-button {
-    display: none;
+text-align: left;
 }

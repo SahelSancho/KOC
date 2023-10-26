@@ -7,50 +7,113 @@
     <title>Knight Of Chaos</title>
     <link rel="stylesheet" href="style.css" />
     <style>
-       
-        </style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+    body {
+        width: 100vw;
+        height: 100vw;
+        display: flex;
+        flex-direction: column;
+}
+
+    .header {
+        width: 100%;
+        height: 64px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        background-color: #f9f9f9;
+        padding: 0  16px;   
+}
+
+    .header-content, .header nav, .buttons {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+}
+
+    .logo {
+        width: 32px;
+        height: 32px;
+        background-color: #000;
+        border-radius: 16px;
+}
+
+    button {
+        padding: 8px 16px;
+}
+
+    .div-main {
+        width: 100%;
+        display: center;
+        gap: 16px;
+        padding: 16px;
+        flex: 1;
+}
+
+    .leitura {
+        flex: center;
+        background-color: #ccc;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 1000px; /* Define a largura máxima desejada */
+        height: 100%;
+}
+
+    .leitura p {
+        text-align: left; /* Alinhar o texto à esquerda */
+        margin: 0 auto; /* Centralizar o texto dentro do contêiner leitura */
+}
+
+    h2{
+    text-align: left;
+}
+
+    </style>
 </head>
 <body>
     <div class="header">
         <div class="header-content">
-            <div class="logo"></div>
-
         <nav>
             <a href="#">Home</a>
-            <a href="#">Capítulos</a>
+            <a target="_blank" href="https://vulcannovel.com.br/koc-knight-of-chaos/">Capítulos</a>
             <a href="#">Parceiros</a>
             <a href="#">Wiki</a>
             <a href="#">Contatos</a>
         </nav>
         </div>
-
+        
         <div class="buttons">
             <button>Entrar</button>
             <button>Cadastrar</button>
+            <div class="logo"></div>
         </div>
     </div>
+
     <div class="div-main">
         <div class="leitura">
-            <h2>Sinopse</h2>
+            <div class="capa"><img src="./assets/CapaTeste.jpg" alt="" width="600px" height="800px"></div>
+            <h1><strong>Knight Of Chaos</strong></h1>
+            <div class="menu-obra">
+            <button><h2>Sobre</h2></button>
+            <button><h2>Capítulos</h2></button>
+            <button><h2>Comentários</h2></button>
+            </div>
             <p>
-                Um jovem rapaz chamado Fernando tem uma vida extremamente difícil, lutando dia após dia para manter seus estudos e poder ter uma boa profissão, a fim de ajudar sua família. Após ser tramado por seus colegas de faculdade, ele perde tudo o que demorou tanto para conquistar, ou pelo menos é o que ele pensava. Ele recebe uma grande chance de mudar seu destino ao ser apresentado a um mundo completamente diferente de tudo que ele já viu!
-            </p>
-            <p>
+                Um jovem rapaz chamado Fernando tem uma vida extremamente difícil, lutando dia após dia para manter seus estudos e poder ter uma boa profissão, a fim de ajudar sua família. Após ser tramado por seus colegas de faculdade, ele perde tudo o que demorou tanto para conquistar, ou pelo menos é o que ele pensava. Ele recebe uma grande chance de mudar seu destino ao ser apresentado a um mundo completamente diferente de tudo que ele já viu!<br>
                 Este é o início de uma nova jornada para Fernando, cheia de desafios e descobertas. Ele está prestes a embarcar em uma aventura emocionante que o levará a lugares que nunca imaginou.
             </p>
+            <button><h2>Ler primeiro</h2></button>
+            <button><h2>Ler último</h2></button>
         </div>
     </div>
-    <nav id="mobile-menu" class="hidden">
-        <a href="#">Home</a>
-        <a href="#">Capítulos</a>
-        <a href="#">Parceiros</a>
-        <a href="#">Wiki</a>
-        <a href="#">Contatos</a>
-    </nav>
     <script src="script.js"></script>
     
     <script>
-
     </script>
 </body>
 </html>
