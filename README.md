@@ -89,7 +89,7 @@ O site carrega os capítulos dinamicamente a partir de um banco de dados. Para c
 Tem dúvidas ou sugestões? Entre em contato:
 
 - **Autor**: Sahel Sancho Magalhães Cayres
-- **Projeto**: [Knight of Chaos](https://github.com/seu-usuario/knight-of-chaos)
+- **Projeto**: [Knight of Chaos](https://github.com/SahelSancho/KOC)
 
 ---
 
