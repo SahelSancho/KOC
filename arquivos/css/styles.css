@@ -4,6 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Imagem de fundo */
+body {
+  background-image: url("../src/fundo_koc.png");
+  background-size: cover; /* A imagem de fundo cobrirá toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-attachment: fixed; /* Faz com que a imagem permaneça fixa ao rolar a página */
+}
 
 /* Estilo para o corpo da página */
 body {
@@ -54,8 +62,8 @@ header nav ul li a {
   margin-bottom: 40px;
 }
 
-.hero .hero-image {
-  width: 100%;
+.sinopse .hero-image {
+  width: 50%;
   height: auto;
 }
 
@@ -74,7 +82,7 @@ header nav ul li a {
   padding: 20px;
   background-color: #adadad;
   color: #000000;
-  border-radius: 0 10px 0 10px;
+  border-radius: 0 30px 0 30px;
 }
 
 .sinopse h2 {
@@ -114,6 +122,5 @@ header nav ul li a {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #222;
   border-radius: 8px;
 }
