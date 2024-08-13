@@ -1,119 +1,119 @@
 /* Estilo global para resetar margens e paddings */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Estilo para o corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1b1b1b;
-    color: #ffffff;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  line-height: 1.6;
 }
 
 /* Container principal que envolve todo o conteúdo */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Estilo do cabeçalho */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
 }
 
 header .logo {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 header nav ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 header nav ul li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 header nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /* Estilo para a seção principal com a imagem */
 .hero {
-    position: relative;
-    text-align: center;
-    margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .hero .hero-image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .hero .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* Seção de sinopse */
 .sinopse {
-    margin-bottom: 40px;
-    padding: 20px;
-    background-color: #333;
-    border-radius: 8px;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #adadad;
+  color: #000000;
+  border-radius: 0 10px 0 10px;
 }
 
 .sinopse h2 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .sinopse button {
-    margin-right: 10px;
-    padding: 10px 20px;
-    background-color: #0066cc;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
 }
 
 /* Seção de capítulos */
 .capitulos {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .capitulos h2 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .capitulos ul {
-    list-style: none;
+  list-style: none;
 }
 
 .capitulos ul li {
-    margin-bottom: 8px;
-    padding: 8px;
-    background-color: #444;
-    border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #444;
+  border-radius: 4px;
 }
 
 /* Estilo do rodapé */
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #222;
-    border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 8px;
 }
